@@ -34,7 +34,7 @@ skip_render:
 # menu items
 menu:
   home: /
-  http: /http
+  http: /http/
 
 
 # Writing
