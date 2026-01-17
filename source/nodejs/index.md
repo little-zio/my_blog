@@ -188,6 +188,7 @@ app.get('/about', function(req, res) {
 使用render方法渲染模板
 
 在模板中使用双括号{% raw %}{{ }}{% endraw %}插入数据
+render第二个参数传数据对象，类json格式
 
 静态资源服务
 ```javascript
