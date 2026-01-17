@@ -1,0 +1,13 @@
+
+
+启动/重启
+hexo clean
+hexo g
+hexo s -p 4000
+
+
+创建新页面
+hexo new page projects
+
+
+
