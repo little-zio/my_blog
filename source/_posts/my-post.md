@@ -9,6 +9,7 @@ tags:
 👉 [node.js知识点](/nodejs/)
 👉 [testdev知识点](/testdev/)
 👉 [sql知识点](/sql/)
+👉 [python知识点](/python/)
 
 
 # 说明

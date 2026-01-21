@@ -221,3 +221,8 @@ app.use((err, req, res, next) => {
 
 # commoJS & global
 ![alt text](./image.png)
+
+后端中
+get可以用req.url获取参数
+post可以用req.on('data')获取参数
+req.end()表示数据接收完毕
