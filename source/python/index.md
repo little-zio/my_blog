@@ -80,6 +80,34 @@ if __name__ == "__main__":
 有嵌套，有引用，有返回，有额外功能
 
 
+```python
+
+def check_login(func): # func: 被装饰的函数名
+    # 1.1. 定义内部函数， 实现登录功能
+    def fn_inner():
+        # 1.2 额外功能
+        print("校验登录...登录成功")
+        # 1.3 访问原函数， 即调用原函数
+        func()
+    # 1.4 返回内部函数
+    return fn_inner
+
+```
+两种写法：1.传统写法；2.语法糖写法
+```python
+# 传统写法
+def comment():
+    print("发表评论...")
+comment = check_login(comment)
+comment()
+
+# 语法糖写法
+@check_login
+def comment():
+    print("发表评论...")
+comment()
+
+```
 
 
 
