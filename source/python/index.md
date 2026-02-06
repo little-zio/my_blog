@@ -221,7 +221,7 @@ IO 密集有用
 字典写入 txt 可以逐行写 key-value；
 
 工程上我更常用 JSON，json.dump，格式规范、可读、可恢复；
-
+![python 中转 json 格式](image-4.png)
 ```python
 import json
 data = {"name": "Alice", "age": 20, "score": 95}
