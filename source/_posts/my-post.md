@@ -10,6 +10,7 @@ tags:
 👉 [testdev知识点](/testdev/)
 👉 [sql知识点](/sql/)
 👉 [python知识点](/python/)
+👉 [shell知识点](/shell/)
 👉 [AI知识点](/AI/)
 
 

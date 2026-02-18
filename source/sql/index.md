@@ -14,3 +14,64 @@ HAVING 分组条件
 ORDER BY 排序字段
 LIMIT 条数 OFFSET 偏移
 
+
+![pipline](image.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+im 
+this is the second of postgradueate
+the reason
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
