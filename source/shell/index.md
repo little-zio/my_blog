@@ -12,15 +12,15 @@ grep -E "\s$" file.txt
 
 ![useful frep options](image.png)
 
+![wc options](image-1.png)
 
+![tr options](image-2.png)
 
+![cat options](image-3.png)
 
+![sort options](image-4.png)
 
-
-
-
-
-
+![uniq options](image-5.png)
 
 
 
