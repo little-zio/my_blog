@@ -70,9 +70,33 @@ LIMIT 条数 OFFSET 偏移
 | pg_attribute  | 表有哪些列     |
 | pg_type       | 列是什么类型    |
 
+```
+pg_authid(rolname, rolsuper, rolinherit, rolcreaterole, rolcreatedb, rolcatupdate,
+        rolcanlogin, rolreplication, rolconnlimit, rolpassword, rolvaliduntil)
 
+pg_database(datname, datdba, encoding, datcollate, datctype, datistemplate,
+        datallowconn, datconnlimit, datlastsysoid, datfrozenxid, datminmxid,
+        dattablespace, datacl)
 
+pg_namespace(nspname, nspowner, nspacl)
 
+pg_class(relname, relnamespace, reltype, reloftype, relowner, relam,
+        relfilenode, reltablespace, relpages, reltuples, relallvisible,
+        reltoastrelid, reltoastidxid, relhasindex, relisshared, relpersistence,
+        relkind, relnatts, relchecks, relhasoids, relhaspkey, relhasrules,
+        relhastriggers, relhassubclass, relfrozenxid, relminmxid, relacl, reloptions)
+
+pg_attribute(attrelid, attname, atttypid, attstattarget, attlen, attnum, attndims,
+        attcacheoff, atttypmod, attbyval, attstorage, attalign, attnotnull,
+        atthasdef, attisdropped, attislocal, attinhcount, attcollation, attacl,
+        attoptions, attfdwoptions)
+
+pg_type(typname, typnamespace, typowner, typlen, typbyval, typtype, typcategory,
+        typispreferred, typisdefined, typdelim, typrelid, typelem, typarray,
+        typinput, typoutput, typreceive, typsend, typmodin, typmodout, typanalyze,
+        typalign, typstorage, typnotnull, typbasetype, typtypmod, typndims,
+        typcollation, typdefaultbin, typdefault, typacl)
+```
 
 
 
